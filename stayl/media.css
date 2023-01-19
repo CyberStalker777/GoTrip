@@ -1,0 +1,99 @@
+@media (max-width: 1200px){
+    .section-2__cards{
+        max-width: 800px;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .section-1__list_text{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section-1__list_link{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 750px){
+    .nav__list{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-1__list h2{
+        text-align: center;
+    }
+
+    .footer-1__list_link{
+        flex-direction: column;
+    }
+
+    .footer-1__list_link p{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .ul{
+        margin: 0 auto;
+        ruby-align: center;
+
+        margin-top: 20px;
+    }
+
+    .header__list_link{
+        font-size: 65px;
+    }
+
+    .header__list_text{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .header__list{
+        height: 550px;
+    }
+
+    .header__list_btn{
+        padding: 12px 70px;
+        
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .section-1__list_item{
+        font-size: 30px;
+    }
+
+    .header__list_link{
+        font-size: 50px;
+    }
+
+    .header__list_text{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .section-1__list_text{
+        font-size: 14px;
+    }
+
+    .header__list_btn{
+        padding: 10px 60px;
+        
+        margin-top: 25px;
+    }
+
+    .section-2__list_item{
+        font-size: 30px;
+    }
+
+    .footer-1__list h2{
+        font-size: 30px;
+    }
+}
